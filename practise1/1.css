@@ -1,0 +1,36 @@
+body{
+    background-color:midnightblue;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+.unique img{
+    width: 30%;
+    height: 40%;
+    margin-left:500px;
+    border-radius:50%;
+}
+
+.unique h1{
+    color:white;
+    margin-left: 630px;
+    font-size:15px;
+    text-shadow:5px 5px 5px black;
+}
+
+.unique h2{
+    color:white;
+    text-align:center;
+    font-size :15px;
+}
+.unique1 h3{
+    color:turquoise;
+    margin-left:80px;
+}
+.unique1 p{
+    color:whitesmoke;
+    font-size: medium;
+    margin-left: 100px;
+}
+
+
+
