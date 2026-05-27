@@ -1,0 +1,123 @@
+body{
+    background-image: url("https://images.pexels.com/photos/13551570/pexels-photo-13551570.jpeg");
+    background-size:cover;
+}
+.box{
+    width:100%;
+   
+}
+nav{
+   background: #833AB4;
+   background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    border-radius:10px;
+}
+a{
+    color:black;
+    font-size: 20px;
+}
+    
+.logo{
+      margin-left :35px;
+      font-size:28px;
+      font-weight:bold;
+      color:#ff9800; 
+      cursor:pointer;
+      
+}
+.signup{
+    border-radius:20px;
+    border-color: cadetblue;
+    padding:12px 25px;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+}
+.signin{
+     border-radius:20px;
+    border-color: cadetblue;
+    padding:12px 25px;
+    font-weight:bold;
+    font-size:16px;
+    cursor:pointer;
+}
+.login{
+     border-radius:20px;
+     border-color: rgb(141, 190, 15);
+    padding:12px 25px;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:16px;
+    background-color:#ff9800;
+}
+.content{
+    background:url("https://images.pexels.com/photos/207253/pexels-photo-207253.jpeg")
+}
+ 
+#h{
+   color:black;
+    font-size :50px;
+    margin-left:100px;
+    margin-top: 60px;
+}
+#p{
+     color:black;
+    font-size:20px;
+    margin-left:120px; 
+    margin-top:20px;
+}
+
+img{
+    width: 380px;
+    height:360px;
+    margin-left:1000px;
+    margin-right:100px;
+    margin-top:-250px;
+    border-radius:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #472525;
+}
+.order{
+    padding:12px 55px;
+    border-radius:20px;
+    background-color:#ff9800;
+    font-weight:bold;
+    margin-left:400px;
+    margin-top:50px;
+}
+.menu-button button{
+    padding:12px 25px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-left:100px;
+    cursor:pointer;
+}
+.menu-button .all{
+    background-color:#00ff8c;
+}
+.images{
+    display:flex;
+    justify-content:space-between;
+}
+.images{
+    width:20px;
+    height:30px;
+
+}
+.images img{
+      width:250px;
+      height:250px;
+      margin-left:20%;
+      margin-top:40px;
+      cursor:pointer;
+
+}
+.images h3{
+    margin-left:100px ;
+}
+.images p{
+    margin-left:100px;
+}
