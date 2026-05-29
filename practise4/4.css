@@ -1,0 +1,153 @@
+body{background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20240919/pngtree-a-background-of-orange-blue-and-yellow-gradients-with-gritty-appearance-image_16233934.jpg");
+}
+.box{
+    background:linear-gradient(to right,#00f5a0,#00d9ff);
+    padding:60px;
+    border-radius:20px;
+}
+.box1{
+    background-color:white;
+    width:100%;
+    padding-bottom: 300px;
+    
+}
+
+nav{
+    display:flex;
+    align-items:center;
+    gap:80px;
+    margin:30px;
+
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-size: 15px;
+}
+nav a:hover{
+    color:rgb(46, 61, 201);
+   } 
+nav .logo:hover{
+    color:#2ab10f;
+}      
+.logo{
+    
+      font-size:20px;
+      font-weight:bold;
+      color:#ff9800; 
+      cursor:pointer;
+      
+}
+.signup{
+    border-radius:20px;
+    border-color: cadetblue;
+    padding:10px 15px;
+    font-weight:bold;
+    font-size:12px;
+    cursor:pointer;
+    margin:30px;
+}
+.signin{
+     border-radius:20px;
+    border-color: cadetblue;
+    padding:10px 15px;
+    font-weight:bold;
+    font-size:12px;
+    cursor:pointer;
+    margin:30px;
+}
+.login{
+     border-radius:20px;
+     border-color: rgb(141, 190, 15);
+    padding:10px 15px;
+    font-weight:bold;
+    cursor:pointer;
+    font-size:12px;
+    background-color:#ff9800;
+    margin:30px;
+}
+#h{
+   color:black;
+    font-size :25px;
+    margin-left:150px;
+    margin-top: 40px;
+}
+#p{
+     color:black;
+    font-size:15px;
+    margin-left:150px; 
+    margin-top:20px;
+}
+
+.content img{
+    width: 200px;
+    height:200px;
+    margin-left:800px;
+    margin-right:100px;
+    margin-top:-700px;
+    border-radius:20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2ab10f;
+}
+.order{
+    padding:12px 55px;
+    border-radius:20px;
+    background-color:#ff9800;
+    font-weight:bold;
+    margin-left:200px;
+    margin-top:10px;
+    cursor:pointer;
+}
+.menu {
+   display:flex;
+   margin:20px;
+}
+.menu-button button{
+    padding:8px 10px;
+    border-radius:20px;
+    font-weight:bold;
+    cursor:pointer;
+    margin-right:50px;
+    margin-left:-30px;
+}
+.menu h2{
+    color:black;
+    margin-left:30px;
+    font-size:15px;
+}
+p{
+    margin-left:50px;
+}
+.menu-button .all{
+    background-color: #ff9800;;
+    margin-left:600px;
+    margin-top:-600px;
+}
+.images{
+    display:flex;
+    justify-content:space-between;
+}
+.images{
+    width:20px;
+    height:20px;
+    gap:50px;
+
+}
+.images img{
+      width:200px;
+      height:200px;
+      margin-left:20%;
+      margin-top:40px;
+      margin-bottom:100px;
+      cursor:pointer;
+
+}
+.images h3{
+    margin-left:50px ;
+    margin-top:-100px;
+}
+.images p{
+    margin-left:50px;
+    font-size:18px;
+}
