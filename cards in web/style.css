@@ -1,0 +1,115 @@
+body{
+    background-color:whitesmoke;
+    margin-left: 200px ;
+    margin-right:200px;
+}
+.cards-top{
+    
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+.card1{
+    height:300px;
+    width: 250px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+    background: #dedec5;
+background: linear-gradient(0deg, rgba(222, 222, 197, 1) 0%, rgba(209, 235, 229, 1) 100%);
+
+}
+.card1:hover{
+    transform:translateY(5px);
+}
+.card2{
+    height: 300px;
+    width: 250px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+    background: #f9fac8;
+background: linear-gradient(0deg, rgba(249, 250, 200, 1) 0%, rgba(245, 245, 235, 1) 100%);
+}
+.card2:hover{
+    transform:translateY(5px);
+}
+.card3{
+     height: 300px;
+    width: 250px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+    background: #a19a9a;
+background: linear-gradient(90deg, rgba(161, 154, 154, 1) 0%, rgba(242, 157, 157, 1) 50%, rgba(242, 237, 237, 1) 100%);
+}
+.card3:hover{
+    transform:translateY(5px);
+}
+.cards-bottom{
+    
+   display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+     margin-left: 100px;
+
+}
+.card4{
+    height:300px;
+    width: 250px;
+     border: 2px solid lightgray;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+    background: #b3adf7;
+background: linear-gradient(90deg, rgba(179, 173, 247, 1) 0%, rgba(126, 126, 145, 1) 35%, rgba(235, 249, 250, 1) 100%);
+}
+.card4:hover{
+    transform:translateY(-5px);
+}
+.card5{
+    height: 300px;
+    width: 250px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+    background: #e8d5d5;
+background: linear-gradient(90deg, rgba(232, 213, 213, 1) 0%, rgba(139, 139, 153, 1) 35%, rgba(177, 195, 196, 1) 100%);
+
+}
+.card5:hover{
+    transform:translateY(-5px);
+}
+.card6{
+     height: 300px;
+    width: 250px;
+    border: 2px solid lightgray;
+    box-shadow: 5px 5px 10px lightgray;
+    border-radius: 20px;
+    background: #b5abd9;
+background: linear-gradient(0deg, rgba(181, 171, 217, 1) 0%, rgba(230, 190, 214, 1) 100%);
+}
+.card6:hover{
+    transform:translateY(-5px);
+}
+img{
+    height:100px;
+    width:100px;
+    margin-left: 75px;
+    margin-top:20px;
+   
+}
+h2{
+    margin-left: 25px;
+    margin-top:10px;
+    font-size: 15px;
+}
+p{
+    margin-left: 25px;
+    font-size: small;
+}
+a{
+    padding:20px;
+    text-decoration: none;
+    font-weight: 700;
+}
