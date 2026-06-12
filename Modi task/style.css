@@ -1,0 +1,92 @@
+body{
+  margin: 0%;
+  padding:0%;
+  background-color: #f0f0f0;
+}
+.header{
+
+}
+
+
+.first-bar{
+    background-color:rgb(99, 98, 98);
+    display: flex;
+    justify-content: end;
+    gap:25px;
+    padding: 10px;
+}
+.skip{
+    color:white;
+}
+.skip:hover{
+    cursor:pointer;
+    text-decoration: underline;
+    border: 2px solid black;
+}
+.A a{
+    border: 2px solid rgb(253, 224, 170);
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+.A a:hover{
+    background-color: rgb(243, 189, 90);
+}
+#a{
+    text-decoration: none;
+    color:white;
+    border:5px solid black;
+    background-color: black;
+}
+#b{
+    text-decoration: none;
+    color: black;
+     border:5px solid white;
+    background-color: white;
+}
+.icon-bar a:hover{
+        border:2px solid black;
+}
+#x:hover{
+    color:black;
+}
+#fa:hover{
+   color: rgb(33, 33, 197);
+}
+#you:hover{
+    color: red;
+}
+#m:hover{
+    color:rgb(59, 132, 172);
+}
+#search{
+    position: absolute;
+}
+.search .fa-solid{
+    position: absolute;
+    margin-left: 150px;
+}
+.language a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.second-bar{
+    background-color: rgb(222, 76, 23);
+    padding:15px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 900;
+}
+
+.hero{
+    background-image: url(https://www.pmindia.gov.in/wp-content/uploads/2026/05/Homepage-PM-and-the-President-of-the-Republic-of-Cyprus-Mr.-Nikos-Christodoulides-witnessing-the-Exchange-of-MoUs-between-India-and-Cyprus-in-Hyderabad-House-New-Delhi.jpg);
+    height:500px;
+    
+}
+.news{
+   display: grid;
+   grid-template-columns: repeat(2,1fr);
+}
