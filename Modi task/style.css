@@ -3,11 +3,11 @@ body{
   padding:0%;
   background-color: #f0f0f0;
 }
-.header{
-
+.nav{
+    position:fixed;
+    width:100%;
+    z-index: 1;
 }
-
-
 .first-bar{
     background-color:rgb(99, 98, 98);
     display: flex;
@@ -81,12 +81,370 @@ body{
     font-weight: 900;
 }
 
-.hero{
-    background-image: url(https://www.pmindia.gov.in/wp-content/uploads/2026/05/Homepage-PM-and-the-President-of-the-Republic-of-Cyprus-Mr.-Nikos-Christodoulides-witnessing-the-Exchange-of-MoUs-between-India-and-Cyprus-in-Hyderabad-House-New-Delhi.jpg);
-    height:500px;
-    
+
+
+ .hero{
+  
+   width:100%;
+   height: 500px;
+   position: relative;
+   animation:photos 50s infinite;
+} 
+
+@keyframes photos{
+    0%{
+        background-image:url("https://www.pmindia.gov.in/wp-content/uploads/2026/05/Homepage-PM-at-press-statement-in-Rome-Italy.jpg");
+    }
+    10%{
+        background-image: url("https://www.pmindia.gov.in/wp-content/uploads/2026/06/Bharat-Innvoates-banner-homepage.jpg");
+    }
+    20%{
+        background-image:url("https://www.pmindia.gov.in/wp-content/uploads/2026/05/Homepage-PM-attends-Norway-India-Business-and-Research-Summit-in-Oslo-Norway.jpg");
+    }
+    30%{
+        background-image: url("https://www.pmindia.gov.in/wp-content/uploads/2026/06/H20260615210946.jpg");
+    }
+    40%{
+        background-image:url("https://www.pmindia.gov.in/wp-content/uploads/2026/05/Homepage-PM-and-the-President-of-the-Republic-of-Cyprus-Mr.-Nikos-Christodoulides-witnessing-the-Exchange-of-MoUs-between-India-and-Cyprus-in-Hyderabad-House-New-Delhi.jpg");
+    }
+    50%{
+        background-image: url("https://www.pmindia.gov.in/wp-content/uploads/2026/06/H20260616210951.jpg");
+    }
+    60%{
+         background-image: url("https://www.pmindia.gov.in/wp-content/uploads/2026/06/List-of-Outcomes-during-the-visit-of-Honble-Prime-Minister-to-Slovakia.jpg"); 
+    }
+    70%{
+        background-image: url("https://www.pmindia.gov.in/wp-content/uploads/2026/06/H20260615210949.jpg");
+    }
+    80%{
+        background-image:url("https://www.pmindia.gov.in/wp-content/uploads/2026/05/Homepage-PM-addresses-the-gathering-on-the-occasion-of-19th-Rozgar-Mela-via-video-conferencing.jpg");
+    }
+    90%{
+        background-image: url("https://www.pmindia.gov.in/wp-content/uploads/2026/06/Homepage-PM-meets-the-Prime-Minister-of-Slovakia-Mr.-Robert-Fico-in-Bratislava-Slovakia.jpg");
+    }
+    100%{
+         background-image:url("https://www.pmindia.gov.in/wp-content/uploads/2026/05/HOMEPAGE-MANN-KI-BAAT-BANNER-ENGLISH.jpg");
+    }
 }
+
+#bg-img .bg-icon {
+    position: absolute;
+    left:0px;
+    top:10px;
+}
+
+.hero .texta{
+   color:white;
+   font-weight: bold;
+   font-size: 20px;
+   position: absolute;
+   right:10px;
+   bottom:10px;
+   background-color: black;
+   padding:20px;
+}
+.hero #bg-img .textb{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    top:60px;
+    left:60px;
+    font-weight: bold;
+    font-size: xx-large;
+    position: absolute;
+}
+
+
+
+
 .news{
+    padding-bottom: 20px;
+    background-color: rgb(181, 177, 177);
+}
+.news h1{
+    text-align: center;
+
+}
+.news-a{
    display: grid;
    grid-template-columns: repeat(2,1fr);
 }
+.news-b{
+   display:flex; 
+   padding:15px;
+}
+.news-b img{
+    width:280px;
+    height:200px;
+    padding:20px;
+}
+.news-b p{
+    line-height: 25px;
+}
+.news-b a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+    font-size:large;
+}
+.news-b img:hover{
+    border: 2px solid black;
+}
+.news-b a:hover{
+    text-decoration: underline;
+}
+.news .btn{
+    text-decoration: none;
+    background-color: rgb(231, 204, 23);
+   margin-left:700px;
+   font-weight:bolder;
+   color:white;
+   padding:15px 20px 8px 20px;
+}
+
+
+
+.gallery{
+    border-top: 8px solid black;
+    border-bottom: 8px solid black;
+}
+.gallery-a{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.gallery-b img{
+    height: 100%;
+    width:100%;
+    object-fit: cover;
+}
+.gallery-b{
+  position: relative;
+}
+.gallery-b::before{
+    content: "";
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: rgb(0, 0, 0, 0.5);
+    transition: 1.0s;
+}
+.gallery-b:hover::before{
+    background: rgb(0,0,0,0);
+}
+.gallery-b a{
+    text-decoration: none;
+    color:black;
+   left: 145px;
+   bottom: 20px;
+   position: absolute;
+   border:none;
+   background-color: orange;
+   padding:10px 20px 10px 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+}
+.gallery-b img:hover{
+    cursor: pointer;
+}
+
+
+
+
+.pm-profile{
+   display: flex;
+    padding:20px 0px 20px 0px;
+    z-index: 3;
+}
+.pm-profile-a{
+    background-image: url(https://www.pmindia.gov.in/wp-content/themes/pmindia2015/images/bg-block1.jpg);
+    padding: 30px;
+}
+.pm-profile-a h1{
+    font-size: 55px;
+}
+.pm-profile-a p{
+   font-size: 20px;
+   line-height: 30px;
+}
+.pm-profile-a a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(18, 142, 191);
+    padding:20px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.pm-profile-b1 img{
+    height:150px;
+   width:257px;
+   border:30px solid rgb(119, 66, 66);
+}
+.pm-profile-b1{
+    background-color:rgb(71, 25, 25) ; 
+    height:40%;
+}
+.pm-profile-b1 a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(18, 142, 191);
+    padding:10px;
+    font-weight: 300;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.pm-profile-b1 h3 {
+    padding-left:20px;
+    text-align:center;
+    color: white;
+    font-size: 20px;
+}
+
+.pm-profile-b1 p {
+    padding-left:20px;
+    padding-right:20px;
+    color: white;
+    text-align: left;
+    font-size: 15px;
+}
+.pm-profile-b2{
+    background-color: rgb(65, 64, 64);
+   padding:2px 1px 10px 30px;
+   height:59%;
+}
+.pm-profile-b2 .pm-images a img:hover{
+    border:2px solid rgb(237, 180, 7);
+}
+.pm-profile-b2 a{
+    color:white;
+    text-decoration: none;
+}
+.pm-profile-c{
+    background-image: url(https://www.pmindia.gov.in/wp-content/themes/pmindia2015/images/bg-block3.jpg);
+    height: 900px;
+    padding: 30px;
+}
+.pm-profile-c h1{
+    font-size: 55px;
+}
+.pm-profile-c p{
+   font-size: 20px;
+   line-height: 30px;  
+} 
+.pm-profile-c a{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(18, 142, 191);
+    padding:10px;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 20px;
+    
+}
+
+
+
+
+.interact{
+    background-color: rgb(3, 3, 87);
+}
+.interact h1{
+    text-align: center;
+    color: white;
+}
+#interact{
+    display: flex;
+    margin-left:550px;
+}
+.interact-a{
+    margin-right: 50px;
+    padding:30px;
+}
+.interact a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+.interact-a:hover{
+   border: 2px solid yellow;
+   text-decoration: underline white;
+}
+.interact-b{
+    padding:30px;
+}
+.interact-b:hover{
+   border: 2px solid yellow;
+   text-decoration: underline white;
+}
+
+
+
+.gov{
+    background-color: rgb(126, 121, 121);
+}
+.gov h1{
+    text-align:center;
+    color:white;
+    font-size:55px;
+    margin-bottom:15px;
+}
+.gov-a{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    width:90%;
+    margin: 0px auto;
+    padding: 20px 20px 40px 20px;
+}
+.card{
+    position:relative;
+    overflow: hidden;
+}
+.card img{
+    width:100%;
+    height:200px;
+    display: block;
+    object-fit:cover;
+}
+.card img:hover{
+    transform: scale(1.3);
+}
+.card h5{
+    position:absolute;
+    bottom: 5px;
+    left:20px;
+    background:black;
+    color:white;
+    padding:8px 12px;
+    font-size:15px;
+    line-height:24px;
+}
+.card i{
+     position:absolute;
+    top:10px;
+    left:10px;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+
+
+
+
+.footer{
+    background-color: rgb(37, 37, 37);
+    display: flex;
+    justify-content:space-around;
+    padding:20px;
+}
+.footer span{
+    color:rgb(88, 61, 224)
+}
+.footer a{
+    text-decoration: none;
+    color:white;
+}
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
