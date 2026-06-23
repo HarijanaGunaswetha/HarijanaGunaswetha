@@ -1,0 +1,186 @@
+body{
+    font-family:'Playfair Display', sans-serif ;
+    letter-spacing: 1px;
+}
+.header .head-img{
+   object-fit:cover;
+   height:100%;
+   width:100%;
+   position: relative;
+   margin-top: 10px;
+
+}
+.nav-bar{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    z-index: 1000;
+    top:10px;
+}
+.nav{
+    display: flex;
+    justify-content: end;
+    gap: 50px;
+   top:50px;
+   margin-left:900px;
+    position: absolute;
+}
+.icon{
+    display: flex;
+    gap:10px;
+}
+.nav a{
+    text-decoration: none;
+    color:black;
+}
+.header a:hover{
+    color:#c57d4f;
+}
+#pottery{
+    position: absolute;
+    top:50px;
+    margin-left: 20px;
+}
+#h3{ 
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top:120px;
+    font-size: 100px;
+    font-weight: 100;
+    left:550px;
+}
+#a{
+    position: absolute;
+    top:320px;
+    left:550px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.hero{
+    margin:100px;
+}
+.hero-a{
+    display: flex;
+    gap:30px;
+}
+.hero-1 h1{
+   font-size:50px ;
+}
+.hero-1 p{
+    line-height: 30px;
+    text-align: justify;
+}
+.hero-2 img{
+    width:700px;
+    height:500px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 100px;
+    gap: 100px;
+}
+.card h3{
+    color: #222222;
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+}
+.card p{
+    color: #8d8787;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align:justify;
+}
+
+
+#bg-img{
+    width:100%;
+    height:500px;
+    object-fit: cover;
+    position: relative;
+}
+#subh2{
+     position: absolute;
+    margin-top: -380px;
+    margin-left: 550px;
+    font-size: 45px;
+    color: white;
+}
+.form-box{
+    display:flex;
+}
+.subscription input{
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 550px;
+    border: none;
+    padding: 10px 100px 10px 50px;
+    border:1px solid white;
+    background:transparent;
+    color:white;
+    font-size:20px;
+    
+}
+button{
+    position:absolute;
+    margin-top: -300px;
+    margin-left: 950px;
+    border:none;
+    padding:10px 20px 20px 40px;
+    letter-spacing: 8px;
+}
+
+
+.footer{
+    background:#f5f2ed;
+    padding:80px 100px 30px;
+}
+.footer-top{
+    display:flex;
+    justify-content:space-between;
+}
+.contact h3{
+    font-size:18px;
+    letter-spacing:4px;
+    margin-bottom:35px;
+}
+.contact ul{
+    list-style:none;
+}
+
+.contact ul li{
+    margin-bottom:18px;
+}
+.contact ul li a{
+    text-decoration:none;
+    color:#777;
+    font-size:20px;
+}
+
+.contact ul li a:hover{
+    color:#b57d5a;
+}
+.footer-bottom{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.copy{
+    color:#777;
+    font-size:18px;
+}
+.social a{
+    text-decoration:none;
+    color:#777;
+    margin-left:40px;
+    letter-spacing:4px;
+    font-size:14px;
+}
+
+.social a:hover{
+    color:#b57d5a;
+}
