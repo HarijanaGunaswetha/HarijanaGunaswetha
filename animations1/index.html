@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="nav">
+            <div class="nav-right">
+                <a href="#">CSS Tutorial</a>
+            </div>
+            <div class="nav-left">
+                <a href="#">Basic CSS</a>
+                <a href="#">Animations</a>
+                <a href="#">Psuedo elements</a>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <div class="def">
+                <h1>Animations</h1>
+                <p>Animation is used to make a webpage element move, change its size, color, position, or appearance automatically over a period of time.</p>
+                <ul>
+                    <li>A button slowly changes color.</li>
+                    <li>An image rotates continuously.</li>
+                    <li>A text fades in when the page loads.</li>
+                    <li>A box moves from left to right.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="syntax">
+            <div class="animation">
+                 <div>
+                    <h1>@Keyframes</h1>
+                    <p><b>def:</b>@keyframes is a CSS rule that defines how an animation should move or change from the beginning to the end.</p>
+                    <p><b>ex:</b>There are <b>2 common ways </b>to use @keyframes in CSS. </p>
+                    <p>1.Using <b>from </b>and <b>to</b> <br>
+                        This is the simplest way. It defines the starting and ending states of the animation.</p><br>
+                        <p>
+                            @keyframes animationname{<br>
+                                              from{<br>
+                                                    property:value;<br>
+                                              }<br>
+                                              to  { <br>
+                                                    property:value;<br>
+                                                  } <br>
+                                           }
+
+                        </p>
+
+                    <p>2. Using <b>Percentages (0%, 50%, 100%)</b>
+                        This method lets you define multiple steps in the animation.</p>
+                    <p>
+                            @keyframes animationname{<br>
+                                              0%{<br>
+                                                    property:value;<br>
+                                              }<br>
+                                              50%  { <br>
+                                                    property:value;<br>
+                                                  } <br>
+                                            100%  { <br>
+                                                    property:value;<br>
+                                                  } <br>
+                                           }
+
+                        </p>
+                 </div>
+            </div>
+    </section><br><br>
+    <section class="box">
+        <div class="box1"><h1>FADE</h1></div>
+        <div class="box2"><h1>SLIDE IN LEFT</h1></div>
+        <div class="box3"><h1>SLIDE IN RIGHT</h1></div>
+        <div class="box4"><h1>BOUNCE</h1></div>
+        <div class="box5"><h1></h1></div>
+        <div class="box6"></div>
+        <div class="box7"></div>
+    </section>
+</body>
+</html>
