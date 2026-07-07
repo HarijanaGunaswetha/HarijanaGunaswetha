@@ -15,6 +15,10 @@ body{
     color:white;
     font-size: 35px;
 }
+.nav a:hover{
+    text-decoration: underline white;
+    color:black;
+}
 .nav-left{
     display: flex;
     align-items: center;
@@ -33,6 +37,9 @@ body{
       padding: 20px;
     animation: def 10s  infinite;
     
+}
+.def p:hover{
+    animation-play-state: paused;
 }
 @keyframes def{
     0%{
@@ -70,19 +77,27 @@ body{
 .animation{
     margin-left: 50px;
 }
+h1{
+    text-align: center;
+}
 .box{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:40px;
     padding:40px;
 }
-.box div{
+/* .box div{
     height: 150px;
     width:250px;
     background-color: orangered;
     text-align: center;
+} */
+.box1{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
 }
-
  .box1:hover{
     animation: fade 5s ;
 }
@@ -94,6 +109,12 @@ body{
         opacity: 1;
     }
 } 
+.box2{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
+}
 .box2:hover{
     animation: slide 5s ;
 }
@@ -105,6 +126,12 @@ body{
         transform: translateX(-100px); 
     }
 } 
+.box3{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
+}
  .box3:hover{
     animation: slide-right 5s ;
 }
@@ -115,6 +142,12 @@ body{
    50%{
         transform: translateX(0px); 
     }
+}
+.box4{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
 }  
 .box4:hover{
     animation: bounce 5s ;
@@ -127,14 +160,68 @@ body{
         transform: translateY(0px); 
     }
 }
-.box4:hover{
-    animation: bounce 5s ;
+.box5{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
 }
-@keyframes bounce{
+.box5:hover{
+   transform: scale(1.1);
+}
+.box6{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
+}
+.box6:hover{
+    animation: rotate 5s ;
+}
+@keyframes rotate{
    0%,100%{
-        transform: translateY(-100px); 
+        transform: rotate(0deg); 
     }
    50%{
-        transform: translateY(0px); 
+        transform: rotate(360deg); 
     }
-}  
+}
+.box7{
+     height: 150px;
+    width:250px;
+    background-color: orangered;
+    text-align: center;
+    animation: colorchange 2s 10;
+}
+@keyframes colorchange{
+    0%{
+        
+        background-color: rgba(255, 0, 21, 0.538);
+    }
+    25%{
+        background-color: rgba(255, 0, 234, 0.474);
+    }
+    50%{
+        
+        background-color: rgba(0, 0, 255, 0.415);
+    }
+    75%{
+        
+        background-color: rgba(0, 255, 242, 0.468);
+    }
+    100%{
+        
+        background-color: rgba(26, 255, 0, 0.556);
+    }
+}
+.box7:hover{
+   animation-play-state: paused;
+}
+.footer{
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding:6px;
+    text-align: center;
+}

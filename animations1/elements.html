@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>elements</title>
+    <link rel="stylesheet" href="elements.css">
+</head>
+<body>
+    <section>
+        <div class="nav">
+            <div class="nav-right">
+                <a href="#">CSS Tutorial</a>
+            </div>
+            <div class="nav-left">
+                <a href="index.html">Basic CSS</a>
+                <a href="index.html">Animations</a>
+                <a href="elements.html">Psuedo elements</a>
+            </div>
+        </div>
+    </section>
+    <section id="elements" >
+        <h1>PSUEDO ELEMENTS</h1>
+        <p><b>def:</b>Pseudo-elements are used to style a specific part of an HTML element or to add extra content
+             without writing it in the HTML code.</p>
+        <p><b>Common Pseudo-elements:</b> <br>
+        ::before= Adds content before an element. <br>
+        ::after= Adds content after an element.<br>
+        ::first-letter= Styles the first letter of text.<br>
+        ::first-line= Styles the first line of text.<br>
+        ::selection= Styles selected text.<br>
+        ::placeholder= Styles placeholder text in input fields.</p>
+        <h2>Examples::</h2>
+        <p id="before"><b>::before</b></p>
+        <p id="after"><b>::after</b></p>
+        <p id="first-letter">The first letter becomes larger and red.</p>
+        <p id="first-line"><b>::first-line </b>The first line of the paragraph will be blue and bold. <br>
+        The first line of the paragraph will be blue and bold.</p>
+        <p id="select"><b>::selection</b>When the user selects text with the mouse, the selected text becomes white on a black background.</p>
+        
+        <p id="place"><b>::placeholder</b><input type="text" placeholder="Enter your name"></p>
+        <p class="spinner"></p>
+    </section>
+
+</body>
+</html>

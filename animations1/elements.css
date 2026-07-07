@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+.nav{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav a{
+    text-decoration: none;
+    color:white;
+    font-size: 35px;
+}
+.nav a:hover{
+    text-decoration: underline white;
+    color:black;
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap:23px;
+}
+
+#elements{
+   background-color: rgba(234, 255, 127, 0.19);
+   
+}
+#elements h1{
+    text-align: center;
+}
+#elements p{
+    font-size: 20px;
+    line-height: 28px;
+   margin-left: 100px;
+}
+#elements h1::before{
+    content:"👉 ";
+}
+#elements h2{
+    margin-left: 50px;
+}
+#elements h1::after{
+    content:" 👈";
+}
+#first-letter::first-letter {
+    color:red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#before::before{
+    content:"★ ";
+    color:red;
+}
+#after::after{
+    content:" ✔";
+    color:green;
+}
+#first-letter::first-letter{
+    font-size:40px;
+    color:red;
+}
+#first-line::first-line{
+    color:blue;
+    font-weight:bold;
+}
+#select::selection{
+    background:rgb(32, 32, 30);
+    color:white;
+}
+input::placeholder{
+    color:rgba(39, 29, 178, 0.416);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+}
+.spinner{
+    width: 55px;
+    height: 55px;
+    border: 6px solid rgb(254, 249, 249);
+    border-top: 9px solid rgb(22, 87, 140);
+    border-radius: 50%;
+}
+.spinner:hover{
+    animation: 1s spin infinite; 
+}
+@keyframes spin{
+   from{
+    transform: rotate(0deg);
+   }
+   to{
+    transform: rotate(360deg);
+   }
+}
